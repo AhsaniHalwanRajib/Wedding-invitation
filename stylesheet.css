@@ -70,7 +70,7 @@ a {
   padding: 15px 40px;
   border-radius: 99px;
   display: inline-block;
-  margin-right: 26px;
+  margin: auto;
   transition: all 0.3s;
   opacity: 0.2;
 }
