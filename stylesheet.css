@@ -17,7 +17,7 @@ a {
 }
 
 .clear {
-  clear: left;
+  clear: center;
 }
 
 .container {
@@ -36,7 +36,7 @@ a {
 }
 
 .top-wrapper {
-  padding: 188px 0 700px 0;
+  padding: 188px 0 500px 0;
   background-image: url(https://github.com/AhsaniHalwanRajib/Wedding-invitation/blob/main/resources/20220305_234743.jpg?raw=true);
   background-size: cover;
   color: white;
@@ -55,34 +55,15 @@ a {
 
 .btn-wrapper {
   text-align: center;
-  margin: 20px 0;
+  margin: 40px 0;
 }
 
 .btn-wrapper p {
   margin: 10px 0;
 }
 
-.signup {
-  background-color: #239b76;
-}
-
-.link-shortcut-facebook {
-  font-weight: bold;
-  color: 	#4EDC74;
-  padding: 10px 0px;
-  display: inline-block;
-  margin-top: 2px;
-  transition: all 0.3s;
-}
-
-.link-shortcut-facebook:hover {
-  cursor: pointer;
-  color: #E67E22;
-  border-radius: 4px;
-  padding: 2px 34px;
-}
-
 .lokasi { 
+  float: center;
   font-weight: bold;
   background: #D5F5E3;
   color: black;
@@ -97,13 +78,13 @@ a {
 .lokasi:hover {
   font-weight: bold;
   cursor: pointer;
-  background: #2ECC71;
+  background: #239B56;
   color: #F5F9F9;
   opacity: 9;
 }
 
 .kata2 p {
-  margin-top: 100;
+  margin-top: 200;
 }
 
 .fa {
