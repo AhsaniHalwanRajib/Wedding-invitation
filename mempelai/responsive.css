@@ -1,0 +1,15 @@
+@media all and (max-width: 670px) {
+    .mempelai img{
+      width: 100px;
+      filter: blur(4px);
+      transition: all 0.5s;
+      backdrop-filter: blur(20px);
+      border-radius: 20px;
+    }
+
+    .mempelai img:hover {
+      width: 300px;
+      filter: blur(0px);
+      transition: all 0.5s;
+    }
+}
