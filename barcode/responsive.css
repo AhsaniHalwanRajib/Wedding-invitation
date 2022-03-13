@@ -9,4 +9,25 @@
       width: 200px;
       transition: all 0.5s;
     }
+    
+    .header-right a {
+      line-height: 65px;
+      padding: 0 23px;
+      color: white;
+      display: block;
+      float: left;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .header-right a {
+      color: white;
+      filter: none;
+      font-weight: bold;
+      transition: all 0.5s;
+      color: #F4D03F;
+      border-radius: 200px;
+      backdrop-filter: blur(200px);
+      font-size: 15px;
+    }
 }
