@@ -13,4 +13,15 @@
       filter: blur(0px);
       transition: all 0.5s;
     }
+    
+    .header-right a {
+      font-weight: bold;
+      transition: all 0.5s;
+      color: #F4D03F;
+      border-radius: 200px;
+      backdrop-filter: blur(200px);
+      font-size: 15px;
+      color: white;
+      filter: none;
+    }
 }
