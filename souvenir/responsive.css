@@ -1,6 +1,6 @@
 @media all and (max-width: 670px) {
     .mempelai img{
-      width: 290px;
+      width: 220px;
       filter: blur(4px);
       transition: all 0.5s;
       backdrop-filter: blur(20px);
@@ -9,7 +9,7 @@
     }
 
     .mempelai img:hover {
-      width: 300px;
+      width: 240px;
       filter: blur(0px);
       transition: all 0.5s;
     }
