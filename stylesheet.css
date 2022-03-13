@@ -65,22 +65,26 @@ a {
 .lokasi { 
   float: center;
   font-weight: bold;
-  background: #D5F5E3;
-  color: black;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, .5);
+  color: white;
   padding: 15px 40px;
-  border-radius: 99px;
+  border-radius: 10px;
   display: inline-block;
   margin: auto;
   transition: all 0.3s;
-  opacity: 0.2;
+  backdrop-filter: blur(20px);
+  opacity: 9.2;
 }
 
 .lokasi:hover {
   font-weight: bold;
+  padding: 15px 80px;
+  border-radius: 99px;
   cursor: pointer;
   background: #239B56;
   color: #F5F9F9;
   opacity: 9;
+  box-shadow: inset 0 0 0px rgba(255, 255, 255, .5);
 }
 
 .kata2 p {
@@ -97,6 +101,9 @@ header {
   position :fixed;
   top: 0;
   z-index: 10;
+  backdrop-filter: blur(20px);
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, .5);
+  
 }
 
 .logo {
@@ -114,27 +121,27 @@ header {
   opacity: 0.7;
 }
 
-.fokus a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: #2ECC71;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-  font-weight: bold;
-}
 
 .header-right a {
   line-height: 65px;
-  padding: 0 25px;
+  padding: 0 23px;
   color: white;
   display: block;
   float: left;
   transition: all 0.5s;
   font-weight: bold;
+  filter: blur(0.7px);
+  font-size: 14px;
 }
 
 .header-right a:hover {
-  color: #B2BABB;
+  color: white;
+  filter: none;
   font-weight: bold;
+  padding: 0 30px;
+  transition: all 0.5s;
+  color: #F4D03F;
+  border-radius: 200px;
+  backdrop-filter: blur(200px);
+  font-size: 15px;
 }
