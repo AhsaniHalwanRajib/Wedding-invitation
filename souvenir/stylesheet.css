@@ -1,0 +1,161 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+head {
+ color: #777;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: center;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.mempelai img{
+  width: 490px;
+  filter: blur(4px);
+  transition: all 0.5s;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  margin: 40px;
+}
+
+.mempelai img:hover {
+  width: 500px;
+  filter: blur(0px);
+  transition: all 0.5s;
+}
+
+.tanggal {
+  color: #F4D03F;
+  font-weight: bold;
+}
+
+.top-wrapper {
+  padding: 188px 0 500px 0;
+  background-image: url(https://github.com/AhsaniHalwanRajib/Wedding-invitation/blob/main/resources/20220305_234743.jpg?raw=true);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.link { 
+  float: center;
+  font-weight: bold;
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, .5);
+  color: white;
+  padding: 15px 40px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: auto;
+  transition: all 0.3s;
+  backdrop-filter: blur(20px);
+  opacity: 9.2;
+  font-size: 14px;
+}
+
+.link:hover {
+  font-weight: bold;
+  padding: 15px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #F8376C;
+  color: #F5F9F9;
+  opacity: 9;
+  box-shadow: inset 0 0 0px rgba(255, 255, 255, .5);
+  font-size: 15px;
+}
+
+
+.kata2 p {
+  margin-top: 200;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(20px);
+  box-shadow: inset 0 0 2px rgba(255, 255, 255, .5);
+  
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: center;
+  margin-right: -25px;
+  opacity: 0.7;
+}
+
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 23px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+  font-weight: bold;
+  filter: blur(0.7px);
+  font-size: 14px;
+}
+
+.header-right a:hover {
+  color: white;
+  filter: none;
+  font-weight: bold;
+  padding: 0 30px;
+  transition: all 0.5s;
+  color: #F4D03F;
+  border-radius: 200px;
+  backdrop-filter: blur(200px);
+  font-size: 15px;
+}
