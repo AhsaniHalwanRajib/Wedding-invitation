@@ -1,6 +1,6 @@
 @media all and (max-width: 670px) {
     .mempelai img{
-      width: 100px;
+      width: 250px;
       filter: blur(4px);
       transition: all 0.5s;
       backdrop-filter: blur(20px);
